@@ -30,3 +30,61 @@ for time in range(1,13):
 ### 4.
 for number in range(20,52,2):
     print(number)
+## F1.4.01.O2
+### Oefening 1
+robotArm.moveRight();
+robotArm.grab()
+robotArm.moveLeft()
+robotArm.drop()
+### Oefening 2
+robotArm.grab()
+for right in range(9):
+    robotArm.moveRight()
+robotArm.drop()
+for left in range(5):
+    robotArm.moveLeft()
+robotArm.grab()
+for right in range(5):
+    robotArm.moveRight()
+robotArm.drop()
+for left in range(2):
+    robotArm.moveLeft()
+robotArm.grab()
+for right in range(5):
+    robotArm.moveRight()
+robotArm.drop()
+### Oefening 3
+for move in range(4):
+    robotArm.grab()
+    robotArm.moveRight()
+    robotArm.drop()
+    robotArm.moveLeft()
+### Oefening 4
+for move in range(2):
+    robotArm.grab()
+    for right in range(2):
+        robotArm.moveRight()
+    robotArm.drop()
+    for left in range(2):
+        robotArm.moveLeft()
+robotArm.grab()
+robotArm.moveRight()
+robotArm.drop()
+for move in range(2):
+    robotArm.moveRight()
+    robotArm.grab()
+    robotArm.moveLeft()
+    robotArm.drop()
+### Oefening 6
+for right in range(7):
+    robotArm.moveRight()
+robotArm.grab()
+robotArm.moveRight()
+robotArm.drop()
+for move in range(7):
+    robotArm.moveLeft()
+    robotArm.moveLeft()
+    robotArm.grab()
+    robotArm.moveRight()
+    robotArm.drop()
+
